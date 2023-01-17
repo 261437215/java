@@ -1,4 +1,4 @@
-package com.msb.singleton.demo05;
+package com.msb.singleton.demo5;
 
 /**
  * @author Created by yinrg on 2023-01-16 13:34

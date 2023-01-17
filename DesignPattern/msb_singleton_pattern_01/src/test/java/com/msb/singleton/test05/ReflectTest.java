@@ -1,6 +1,6 @@
 package com.msb.singleton.test05;
 
-import com.msb.singleton.demo05.Singleton_05;
+import com.msb.singleton.demo5.Singleton_05;
 import lombok.extern.slf4j.Slf4j;
 
 import java.lang.reflect.Constructor;
@@ -12,7 +12,7 @@ import java.lang.reflect.Constructor;
  * @description 反射对单例的破坏
  */
 @Slf4j
-public class TestReflect {
+public class ReflectTest {
     public static void main(String[] args) throws Exception {
         Class<Singleton_05> singleton05Class = Singleton_05.class;
         Constructor<Singleton_05> constructor = singleton05Class.getDeclaredConstructor();

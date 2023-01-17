@@ -1,6 +1,6 @@
 package com.msb.singleton.test05;
 
-import com.msb.singleton.demo05.Singleton_05;
+import com.msb.singleton.demo5.Singleton_05;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
