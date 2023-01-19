@@ -17,12 +17,11 @@ import java.util.Map;
  */
 @Slf4j
 public class DeliverControllerTest {
-    static DeliverController deliverController = null;
+    static DeliverController deliverController  = new DeliverController();
 
 
     @Before
     public void setUp() throws Exception {
-        this.deliverController = new DeliverController();
     }
 
     @After
