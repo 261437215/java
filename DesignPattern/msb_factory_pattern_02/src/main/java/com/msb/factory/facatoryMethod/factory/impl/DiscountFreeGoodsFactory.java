@@ -1,6 +1,7 @@
-package com.msb.factory.facatoryMethod.factory;
+package com.msb.factory.facatoryMethod.factory.impl;
 
 
+import com.msb.factory.facatoryMethod.factory.FreeGoodsFactory;
 import com.msb.factory.facatoryMethod.service.IFreeGoods;
 import com.msb.factory.facatoryMethod.service.impl.DiscountFreeGoods;
 
@@ -10,7 +11,7 @@ import com.msb.factory.facatoryMethod.service.impl.DiscountFreeGoods;
  * @fileName com.msb.factory.facatoryMethod.factory.DisscountFreeGoodsFactory
  * @description 优惠券发放接口-具体工厂
  */
-public class DiscountFreeGoodsFactory implements FreeGoodsFactory{
+public class DiscountFreeGoodsFactory implements FreeGoodsFactory {
     @Override
     public IFreeGoods getInstance() {
         return new DiscountFreeGoods();
