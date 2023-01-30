@@ -1,7 +1,6 @@
 package com.msb.factory.schemes02.controller;
 
 import com.msb.factory.schemes02.entity.AwardInfo;
-import com.msb.factory.schemes02.entity.ResponseResult;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.After;
 import org.junit.Before;
@@ -9,8 +8,6 @@ import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * @author Created by yinrg on 2023-01-19 15:24

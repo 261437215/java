@@ -1,9 +1,6 @@
 package com.msb.dao;
 
 
-
-import java.util.List;
-
 /**
  * (Dept)表数据库访问层
  *

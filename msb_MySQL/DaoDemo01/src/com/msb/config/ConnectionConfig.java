@@ -1,7 +1,6 @@
 package com.msb.config;
 
 import com.msb.util.PropertiesUtil;
-import jdk.nashorn.internal.runtime.logging.Logger;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

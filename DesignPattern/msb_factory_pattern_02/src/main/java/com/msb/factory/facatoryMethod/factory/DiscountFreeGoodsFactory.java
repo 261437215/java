@@ -1,7 +1,6 @@
 package com.msb.factory.facatoryMethod.factory;
 
 
-import com.msb.factory.facatoryMethod.entity.ResponseResult;
 import com.msb.factory.facatoryMethod.service.IFreeGoods;
 import com.msb.factory.facatoryMethod.service.impl.DiscountFreeGoods;
 

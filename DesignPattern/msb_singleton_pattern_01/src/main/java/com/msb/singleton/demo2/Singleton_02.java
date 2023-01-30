@@ -1,7 +1,5 @@
 package com.msb.singleton.demo2;
 
-import com.msb.singleton.demo1.Singleton_01;
-
 /**
  * @author Created by yinrg on 2023-01-15 17:18
  * @fileSimpleName Singleton_02

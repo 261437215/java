@@ -3,7 +3,10 @@ package com.msb.singleton.test05;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import java.io.*;
+import java.io.File;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 

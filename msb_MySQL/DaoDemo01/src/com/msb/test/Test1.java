@@ -1,14 +1,9 @@
 package com.msb.test;
 
 import com.msb.config.ConnectionConfig;
-import com.msb.dao.EmpDao;
-import com.msb.dao.impl.EmpDaoImpl;
-import com.msb.entity.Emp;
 
-import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Date;
 
 /**
  * @author Created by yinrg on 2022/1/9/0009 下午 02:04
