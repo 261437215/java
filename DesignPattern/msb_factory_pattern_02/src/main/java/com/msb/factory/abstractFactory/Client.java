@@ -9,6 +9,8 @@ import lombok.Data;
 /**
  * @author Created by yinrg on 2023/3/21 22:51
  * @description 客户端
+ * 在理解抽象工厂模式原理的时候，需要记住"如何找到某一类产品的正确共性功能"这个重点
+ * JDBC的实现就是抽象工厂模式
  */
 
 @Data
